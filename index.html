@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Kuan-Lin Chen</title>
+    <script type="text/javascript" src="scr.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <h1 class="md-heading text-center">
@@ -24,15 +26,15 @@
     <font>等。另外未來我也想要學習基礎模型(foundation model)的相關知識，並實際應用於研究中。</font>
     <hr size="2px" align="center" width="100%">
 </div>
-<!-- -->
+<!-- paper的部分 -->
 <div id="publications" class="publications">
-    <h1 class="md-heading text-center">
+    <h1 class="md-heading text-center" onclick="showpub()">
         <font style="vertical-align: inherit;">Publications</font>
     </h1>
     <hr size="2px" align="center" width="100%">
 </div>
 <div class="pub list">
-    <div class="pub">
+    <div id="hiddenpub" class="pub" style="display:none;">
         <div class="title">
             <strong>
             <font style="vertical-align: inherit;">Intelligent proximal-policy-optimization-based decision-making system for humanoid robots</font>
@@ -52,8 +54,8 @@
             </a>
             <font style="vertical-align: inherit;">, </font>
             <strong>
-            <a class="author">
-                <font style="vertical-align: inherit;">Kuan-Lin Chen</font>
+            <a class="author" href="mailto:ken54787845@gmail.com">
+                Kuan-Lin Chen
             </a>
             </strong>
         </div>
@@ -80,9 +82,73 @@
             <a class="tag" href="https://www.sciencedirect.com/science/article/pii/S1474034623001374?via%3Dihub">paper</a>
             <font style="vertical-align: inherit;">]</font>
         </div>
+        <hr size="2px" align="center" width="100%">
     </div>
+    <!-- 其他paper-->
+</div>
+<!-- paper的部分 -->
+<!-- pypi的部分 -->
+<div id="mypypi" class="publications">
+    <h1 class="md-heading text-center" onclick="showpypi()">
+        <font style="vertical-align: inherit;">My PYPI Project</font>
+    </h1>
     <hr size="2px" align="center" width="100%">
 </div>
-
+<div class="pub list">
+    <div id="hiddenpypi" class="pub" style="display:none;">
+        <!-- 1 -->
+        <div class="title">
+            <strong>
+            <a style="vertical-align: inherit; font-size:25px;" href="https://pypi.org/project/linenotifyhelper/">linenotifyhelper</a>
+            </strong>
+        </div>
+        <pre style="background:#ccc; font-size:16px;">pip install linenotifyhelper</pre>
+        <div class="abstract">
+            <p>
+                <strong>
+                    <font style="vertical-align: inherit;">Project Description</font>
+                </strong>
+            </p>
+            <p>
+                <p style="vertical-align: inherit;">Line notify helper This is a small test project, mainly the author wants to learn what to upload to pypi.</p>
+                <p>You can use the method provided by this project to send program messages back and forth to line notify. Many functions are incomplete and will be updated in the future.</p>
+            </p>
+        </div>
+        <hr size="2px" align="center" width="100%">
+        <!-- 2 -->
+        <div class="title">
+            <strong>
+            <a style="vertical-align: inherit; font-size:25px;" href="https://pypi.org/project/memfunc/">memfunc</a>
+            </strong>
+        </div>
+        <pre style="background:#ccc; font-size:16px;">pip install memfunc</pre>
+        <div class="abstract">
+            <p>
+                <strong>
+                    <font style="vertical-align: inherit;">Project Description</font>
+                </strong>
+            </p>
+            <p>
+                <p style="vertical-align: inherit;">You can view detailed code examples and APIs through the link provided.</p>
+            </p>
+        </div>
+        <hr size="2px" align="center" width="100%">
+    </div>
+</div>
+<!-- pypi的部分 -->
+<footer class="my-footer">
+    <div class="footer-col">
+            <font style="vertical-align: inherit;">[</font>
+            <a class="tag" href="https://github.com/tzamou">Github</a>
+            <font style="vertical-align: inherit;">] </font>
+        <!--  -->
+            <font style="vertical-align: inherit;">[</font>
+            <a class="tag" href="https://github.com/tzamou">Gmail</a>
+            <font style="vertical-align: inherit;">] </font>
+    </div>
+    <div class="footer-col">
+        <p> © Kuan-Lin Chen</p>
+    </div>
+</footer>
 </body>
 </html>
