@@ -1,0 +1,8 @@
+body {
+  background-color: #d0edfc;
+}
+
+.md-heading.text-center:hover {
+	cursor: pointer;
+}
+
