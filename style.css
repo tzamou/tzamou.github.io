@@ -6,3 +6,9 @@ body {
 	cursor: pointer;
 }
 
+.tupian{ border:1px solid #000; width:300px; height:200px}
+.tupian img{width:300px; height:200px}
+
+.to-do{ color: #ff0000;
+        background-color: white;
+        font-size: 25px}
